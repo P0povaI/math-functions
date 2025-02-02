@@ -1,4 +1,4 @@
-from math_functions import sumF, sq, sq_eq, avg, mediana, moda
+from math_functions import sumF, diffF, sq, sq_eq, avg, mediana, moda
 
 
 if __name__ == "__main__":
@@ -6,13 +6,16 @@ if __name__ == "__main__":
     a = 5
     b = 4
 
-    s = sumF(a,b)
+    s = sumF(a, b)
     print("Sum: ", s)
+
+    d = diffF(a, b)
+    print("Diff: ", d)
 
     r = sq(b)
     print("Square: ", r)
 
-    res = sq_eq(a=1,b=2,c=-3)
+    res = sq_eq(a=1, b=2, c=-3)
     print("Square equation", res)
 
     r = avg(numbers)

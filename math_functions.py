@@ -4,6 +4,9 @@ import math
 def sumF(number1,number2):
     return number1+number2
 
+def diffF(number1, number2):
+    return number1-number2
+
 def sq(num1):
     return num1*num1
 
